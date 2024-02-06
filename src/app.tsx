@@ -19,9 +19,10 @@ export function App() {
       <div className="grid grid-cols-3 auto-rows-[250px] gap-6">
         <NewNoteCard />
 
-        <NoteCard />
-        <NoteCard />
-        <NoteCard />
+        <NoteCard
+          date={new Date()}
+          content="Grave uma nota em áudio que será convertida para texto automaticamente."
+        />
       </div>
     </div>
   );
