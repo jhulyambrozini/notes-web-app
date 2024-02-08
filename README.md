@@ -1,31 +1,41 @@
-# React + TypeScript + Vite
+# Bloco de notas web
+Este prjeto foi feito durante a NLW Expert da Rocketseat na trilha com foco em front end com React.js.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ele consiste em um bloco de notas web, que possui as funcionalidades de:
+- Criar uma nota digitando
+- Criar uma nota usando a trancrição de voz com a API SpeechRecognition do browser
+- Deletar uma nota
+- Busrca por notas
 
-Currently, two official plugins are available:
+## Links
+A aplicação está online em: [Expert Notes]()
+Link para design da aplicação no [Figma Layout](https://www.figma.com/community/file/1336456128647909148)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias usadas
+- **React.js**:
+Uma biblioteca JavaScript para construção de interfaces de usuário, desenvolvida pelo Facebook. React.js permite a criação de componentes reutilizáveis e oferece uma abordagem eficiente para renderizar UIs dinâmicas.
 
-## Expanding the ESLint configuration
+- **Typescript**:
+Uma linguagem de programação de código aberto que é uma superset da linguagem JavaScript. TypeScript adiciona tipagem estática opcional e outros recursos avançados para ajudar os desenvolvedores a escreverem código mais seguro e escalável.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **TailwindCSS**:
+Um framework de CSS utilitário que facilita a criação de designs responsivos e personalizados. Em vez de usar classes CSS pré-definidas, o TailwindCSS permite a construção de estilos através da aplicação de classes utilitárias diretamente no HTML.
 
-- Configure the top-level `parserOptions` property like this:
+- **SpeechRecognition API**:
+Uma API JavaScript que permite aos desenvolvedores adicionar funcionalidades de reconhecimento de voz aos seus aplicativos da web. Esta API possibilita a transcrição de fala em texto, tornando-a útil para aplicativos de voz e controle por voz.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **Radix**:
+Uma biblioteca JavaScript que fornece componentes de interface de usuário acessíveis e com foco em desempenho. Radix oferece uma variedade de componentes prontos para uso, como menus, modais e botões, que podem ser facilmente personalizados e integrados em aplicativos da web.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# notes-web-app
+- **Vite**:
+Um construtor de aplicações web ultrarrápido para JavaScript e TypeScript. Vite se destaca por sua inicialização rápida e tempo de desenvolvimento ágil, fornecendo uma experiência de desenvolvimento moderna e eficiente.
+
+- **Lucide-React**:
+Uma biblioteca de ícones SVG para React que oferece uma ampla gama de ícones personalizáveis e prontos para uso. Lucide-React facilita a adição de ícones de alta qualidade aos aplicativos React, melhorando a experiência do usuário e a acessibilidade.
+
+## Execução
+1 - Dá um fork neste repositório
+2 - Clone ou baixe o seu repositório fork
+3 - Abra seu terminal e navegue até a pasta do projeto
+4 - Rode o commando `npm i` ou `npm install` para baixar as dependências
+5 - Rode o commando `npm run dev` para iniciar o projeto em modo de desenvolvimmento
