@@ -6,9 +6,10 @@ Ele consiste em um bloco de notas web, que possui as funcionalidades de:
 - Criar uma nota usando a trancrição de voz com a API SpeechRecognition do browser
 - Deletar uma nota
 - Busrca por notas
+- Persistência das notas no localStorage
 
 ## Links
-A aplicação está online em: [Expert Notes]()
+A aplicação está online em: [Expert Notes](https://notes-web-app-jhuly.vercel.app/)
 Link para design da aplicação no [Figma Layout](https://www.figma.com/community/file/1336456128647909148)
 
 ## Tecnologias usadas
@@ -34,8 +35,8 @@ Um construtor de aplicações web ultrarrápido para JavaScript e TypeScript. Vi
 Uma biblioteca de ícones SVG para React que oferece uma ampla gama de ícones personalizáveis e prontos para uso. Lucide-React facilita a adição de ícones de alta qualidade aos aplicativos React, melhorando a experiência do usuário e a acessibilidade.
 
 ## Execução
-1 - Dá um fork neste repositório
-2 - Clone ou baixe o seu repositório fork
-3 - Abra seu terminal e navegue até a pasta do projeto
-4 - Rode o commando `npm i` ou `npm install` para baixar as dependências
-5 - Rode o commando `npm run dev` para iniciar o projeto em modo de desenvolvimmento
+- 1 Dá um fork neste repositório
+- 2 Clone ou baixe o seu repositório fork
+- 3 Abra seu terminal e navegue até a pasta do projeto
+- 4 Rode o commando `npm i` ou `npm install` para baixar as dependências
+- 5 Rode o commando `npm run dev` para iniciar o projeto em modo de desenvolvimmento
