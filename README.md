@@ -5,7 +5,7 @@ Ele consiste em um bloco de notas web, que possui as funcionalidades de:
 - Criar uma nota digitando
 - Criar uma nota usando a trancrição de voz com a API SpeechRecognition do browser
 - Deletar uma nota
-- Busrca por notas
+- Buscar por notas
 - Persistência das notas no localStorage
 
 ## Links
