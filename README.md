@@ -1,5 +1,5 @@
 # Bloco de notas web
-Este prjeto foi feito durante a NLW Expert da Rocketseat na trilha com foco em front end com React.js.
+Este projeto foi feito durante a NLW Expert da Rocketseat na trilha com foco em front end com React.js.
 
 Ele consiste em um bloco de notas web, que possui as funcionalidades de:
 - Criar uma nota digitando
